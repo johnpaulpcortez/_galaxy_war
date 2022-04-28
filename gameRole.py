@@ -61,7 +61,6 @@ class Player(pygame.sprite.Sprite):
         else:
             self.rect.left += self.speed
 
-# 敌人类
 class Enemy(pygame.sprite.Sprite):
     def __init__(self, enemy_img, enemy_down_imgs, init_pos):
        pygame.sprite.Sprite.__init__(self)
